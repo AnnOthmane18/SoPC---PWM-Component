@@ -1,7 +1,7 @@
-# Size Limit [![Cult Of Martians][cult-img]][cult]
+<!-- # Size Limit [![Cult Of Martians][cult-img]][cult] -->
 
-<img src="Files/SOC.png" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
+<img src="Files/SOC.png" align="center"
+     alt="Size Limit logo by Anton Lovchikov" width="500" height="550">
 
 Size Limit is a performance budget tool for JavaScript. It checks every commit
 on CI, calculates the real cost of your JS for end-users and throws an error
