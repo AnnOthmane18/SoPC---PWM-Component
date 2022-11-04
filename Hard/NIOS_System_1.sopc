@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?><system name="NIOS_System_1">
+    <parameter name="bonusData">bonusData 
+{
+   element HEX3
+   {
+      datum _sortIndex
+      {
+         value = "14";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element HEX3.s1
+   {
+      datum baseAddress
+      {
+         value = "266416";
+         type = "long";
+      }
+   }
+   element sys_clk_timer.s1
+   {
+      datum baseAddress
+      {
+         value = "266240";
+         type = "long";
+      }
+   }
+   element pwm_red1
+   {
+      datum _sortIndex
+      {
+         value = "18";
+         type = "int";
+      }
+   }
+   element lcd.control_slave
+   {
+      datum baseAddress
+      {
+         value = "266448";
+         type = "long";
+      }
+   }
+   element SWITCHS.s1
+   {
+      datum baseAddress
+      {
+         value = "266352";
+         type = "long";
+      }
+   }
+   element LED_R
+   {
+      datum _sortIndex
+      {
+         value = "3";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element KEYS.s1
+   {
+      datum baseAddress
+      {
+         value = "266336";
+         type = "long";
+      }
+   }
+   element pwm_red2.avalon_slave_0
+   {
+      datum baseAddress
+      {
+         value = "266480";
+         type = "long";
+      }
+   }
+   element HEX0
+   {
+      datum _sortIndex
+      {
+         value = "11";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element LED_G.s1
+   {
+      datum baseAddress
+      {
+         value = "266352";
+         type = "long";
+      }
+   }
+   element CPU_MEM.s1
+   {
+      datum baseAddress
+      {
+         value = "131072";
+         type = "long";
+      }
+   }
+   element LED_R.s1
+   {
+      datum baseAddress
+      {
+         value = "266336";
+         type = "long";
+      }
+   }
+   element high_res_timer
+   {
+      datum _sortIndex
+      {
+         value = "8";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element cpu
+   {
+      datum _sortIndex
+      {
+         value = "0";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element CPU_MEM
+   {
+      datum _sortIndex
+      {
+         value = "1";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element high_res_timer.s1
+   {
+      datum baseAddress
+      {
+         value = "266272";
+         type = "long";
+      }
+   }
+   element pwm_green.avalon_slave_0
+   {
+      datum baseAddress
+      {
+         value = "266488";
+         type = "long";
+      }
+   }
+   element jtag_uart
+   {
+      datum _sortIndex
+      {
+         value = "2";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element pwm
+   {
+      datum _sortIndex
+      {
+         value = "17";
+         type = "int";
+      }
+   }
+   element LED_G
+   {
+      datum _sortIndex
+      {
+         value = "4";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element HEX4_to_HEX7.s1
+   {
+      datum baseAddress
+      {
+         value = "266432";
+         type = "long";
+      }
+   }
+   element HEX0.s1
+   {
+      datum baseAddress
+      {
+         value = "266368";
+         type = "long";
+      }
+   }
+   element pwm_green
+   {
+      datum _sortIndex
+      {
+         value = "20";
+         type = "int";
+      }
+   }
+   element HEX1
+   {
+      datum _sortIndex
+      {
+         value = "12";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element NIOS_System_1
+   {
+   }
+   element SWITCHS
+   {
+      datum _sortIndex
+      {
+         value = "6";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element HEX4_to_HEX7
+   {
+      datum _sortIndex
+      {
+         value = "15";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element lcd
+   {
+      datum _sortIndex
+      {
+         value = "16";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element jtag_uart.avalon_jtag_slave
+   {
+      datum baseAddress
+      {
+         value = "266464";
+         type = "long";
+      }
+   }
+   element uart.s1
+   {
+      datum baseAddress
+      {
+         value = "266304";
+         type = "long";
+      }
+   }
+   element pwm.avalon_slave_0
+   {
+      datum baseAddress
+      {
+         value = "266472";
+         type = "long";
+      }
+   }
+   element HEX2
+   {
+      datum _sortIndex
+      {
+         value = "13";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element sys_clk_timer
+   {
+      datum _sortIndex
+      {
+         value = "7";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element pwm_red2
+   {
+      datum _sortIndex
+      {
+         value = "19";
+         type = "int";
+      }
+   }
+   element clk
+   {
+      datum _sortIndex
+      {
+         value = "10";
+         type = "int";
+      }
+   }
+   element HEX1.s1
+   {
+      datum baseAddress
+      {
+         value = "266384";
+         type = "long";
+      }
+   }
+   element KEYS
+   {
+      datum _sortIndex
+      {
+         value = "5";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element HEX2.s1
+   {
+      datum baseAddress
+      {
+         value = "266400";
+         type = "long";
+      }
+   }
+   element cpu.jtag_debug_module
+   {
+      datum baseAddress
+      {
+         value = "264192";
+         type = "long";
+      }
+   }
+   element uart
+   {
+      datum _sortIndex
+      {
+         value = "9";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element pwm_red1.avalon_slave_0
+   {
+      datum baseAddress
+      {
+         value = "266472";
+         type = "long";
+      }
+   }
+}
+</parameter>
+    <parameter name="deviceFamily" value="CYCLONEII" />
+    <parameter name="generateLegacySim" value="false" />
+    <parameter name="hardcopyCompatible" value="false" />
+    <parameter name="hdlLanguage" value="VHDL" />
+    <parameter name="projectName" value="Lab_1_SoPC.qpf" />
+    <parameter name="systemHash" value="58789658014" />
+    <parameter name="timeStamp" value="1666824197006" />
+    <module name="clk" kind="clock_source" version="8.0" enabled="1">
+        <parameter name="clockFrequency" value="50000000" />
+        <parameter name="clockFrequencyKnown" value="true" />
+    </module>
+    <module name="cpu" kind="altera_nios2" version="8.0" enabled="1">
+        <parameter name="userDefinedSettings" value="" />
+        <parameter name="setting_showUnpublishedSettings" value="false" />
+        <parameter name="setting_showInternalSettings" value="false" />
+        <parameter name="setting_preciseSlaveAccessErrorException" value="false" />
+        <parameter name="setting_preciseIllegalMemAccessException" value="false" />
+        <parameter name="setting_preciseDivisionErrorException" value="false" />
+        <parameter name="setting_performanceCounter" value="false" />
+        <parameter name="setting_perfCounterWidth" value="_32" />
+        <parameter name="setting_illegalMemAccessDetection" value="false" />
+        <parameter name="setting_illegalInstructionsTrap" value="false" />
+        <parameter name="setting_fullWaveformSignals" value="false" />
+        <parameter name="setting_extraExceptionInfo" value="false" />
+        <parameter name="setting_exportPCB" value="false" />
+        <parameter name="setting_debugSimGen" value="false" />
+        <parameter name="setting_clearXBitsLDNonBypass" value="true" />
+        <parameter name="setting_branchPredictionType" value="Automatic" />
+        <parameter name="setting_bit31BypassDCache" value="true" />
+        <parameter name="setting_bhtPtrSz" value="_8" />
+        <parameter name="setting_bhtIndexPcOnly" value="false" />
+        <parameter name="setting_avalonDebugPortPresent" value="false" />
+        <parameter name="setting_alwaysEncrypt" value="true" />
+        <parameter name="setting_allowFullAddressRange" value="false" />
+        <parameter name="setting_activateTrace" value="true" />
+        <parameter name="setting_activateTestEndChecker" value="false" />
+        <parameter name="setting_activateMonitors" value="true" />
+        <parameter name="setting_activateModelChecker" value="false" />
+        <parameter name="setting_HDLSimCachesCleared" value="true" />
+        <parameter name="setting_HBreakTest" value="false" />
+        <parameter name="resetSlave" value="CPU_MEM.s1" />
+        <parameter name="resetOffset" value="0" />
+        <parameter name="muldiv_multiplierType" value="EmbeddedMulFast" />
+        <parameter name="muldiv_divider" value="false" />
+        <parameter name="mpu_useLimit" value="false" />
+        <parameter name="mpu_numOfInstRegion" value="8" />
+        <parameter name="mpu_numOfDataRegion" value="8" />
+        <parameter name="mpu_minInstRegionSize" value="_12" />
+        <parameter name="mpu_minDataRegionSize" value="_12" />
+        <parameter name="mpu_enabled" value="false" />
+        <parameter name="mmu_uitlbNumEntries" value="_4" />
+        <parameter name="mmu_udtlbNumEntries" value="_6" />
+        <parameter name="mmu_tlbPtrSz" value="_7" />
+        <parameter name="mmu_tlbNumWays" value="_16" />
+        <parameter name="mmu_processIDNumBits" value="_8" />
+        <parameter name="mmu_enabled" value="false" />
+        <parameter name="mmu_autoAssignTlbPtrSz" value="true" />
+        <parameter name="mmu_TLBMissExcSlave" value="" />
+        <parameter name="mmu_TLBMissExcOffset" value="0" />
+        <parameter name="impl" value="Small" />
+        <parameter name="icache_size" value="_4096" />
+        <parameter name="icache_ramBlockType" value="Automatic" />
+        <parameter name="icache_numTCIM" value="_0" />
+        <parameter name="icache_burstType" value="None" />
+        <parameter name="exceptionSlave" value="CPU_MEM.s1" />
+        <parameter name="exceptionOffset" value="32" />
+        <parameter name="debug_triggerArming" value="true" />
+        <parameter name="debug_level" value="Level1" />
+        <parameter name="debug_embeddedPLL" value="true" />
+        <parameter name="debug_debugReqSignals" value="false" />
+        <parameter name="debug_OCIOnchipTrace" value="_128" />
+        <parameter name="dcache_size" value="_2048" />
+        <parameter name="dcache_ramBlockType" value="Automatic" />
+        <parameter name="dcache_omitDataMaster" value="false" />
+        <parameter name="dcache_numTCDM" value="_0" />
+        <parameter name="dcache_lineSize" value="_32" />
+        <parameter name="dcache_bursts" value="false" />
+        <parameter name="cpuReset" value="false" />
+        <parameter name="breakSlave">cpu.jtag_debug_module</parameter>
+        <parameter name="breakOffset" value="32" />
+    </module>
+    <module name="CPU_MEM" kind="altera_avalon_onchip_memory2" version="8.0" enabled="1">
+        <parameter name="allowInSystemMemoryContentEditor" value="false" />
+        <parameter name="blockType" value="AUTO" />
+        <parameter name="dataWidth" value="32" />
+        <parameter name="dualPort" value="false" />
+        <parameter name="initMemContent" value="true" />
+        <parameter name="initializationFileName" value="CPU_MEM" />
+        <parameter name="instanceID" value="NONE" />
+        <parameter name="memorySize" value="102400" />
+        <parameter name="readDuringWriteMode" value="DONT_CARE" />
+        <parameter name="simAllowMRAMContentsFile" value="false" />
+        <parameter name="slave1Latency" value="1" />
+        <parameter name="slave2Latency" value="1" />
+        <parameter name="useNonDefaultInitFile" value="false" />
+        <parameter name="useShallowMemBlocks" value="false" />
+        <parameter name="writable" value="true" />
+    </module>
+    <module name="jtag_uart" kind="altera_avalon_jtag_uart" version="8.0" enabled="1">
+        <parameter name="allowMultipleConnections" value="false" />
+        <parameter name="hubInstanceID" value="0" />
+        <parameter name="readBufferDepth" value="64" />
+        <parameter name="readIRQThreshold" value="8" />
+        <parameter name="simInputCharacterStream" value="" />
+        <parameter name="simInteractiveOptions">INTERACTIVE_ASCII_OUTPUT</parameter>
+        <parameter name="useRegistersForReadBuffer" value="false" />
+        <parameter name="useRegistersForWriteBuffer" value="false" />
+        <parameter name="writeBufferDepth" value="64" />
+        <parameter name="writeIRQThreshold" value="8" />
+    </module>
+    <module name="LED_R" kind="altera_avalon_pio" version="8.0" enabled="0">
+        <parameter name="bitClearingEdgeCapReg" value="false" />
+        <parameter name="captureEdge" value="false" />
+        <parameter name="direction" value="Output" />
+        <parameter name="edgeType" value="RISING" />
+        <parameter name="generateIRQ" value="false" />
+        <parameter name="irqType" value="LEVEL" />
+        <parameter name="resetValue" value="0" />
+        <parameter name="simDoTestBenchWiring" value="false" />
+        <parameter name="simDrivenValue" value="0" />
+        <parameter name="width" value="18" />
+    </module>
+    <module name="LED_G" kind="altera_avalon_pio" version="8.0" enabled="0">
+        <parameter name="simDrivenValue" value="0" />
+        <parameter name="simDoTestBenchWiring" value="false" />
+        <parameter name="edgeType" value="RISING" />
+        <parameter name="resetValue" value="0" />
+        <parameter name="direction" value="Output" />
+        <parameter name="width" value="8" />
+        <parameter name="generateIRQ" value="false" />
+        <parameter name="captureEdge" value="false" />
+        <parameter name="bitClearingEdgeCapReg" value="false" />
+        <parameter name="irqType" value="LEVEL" />
+    </module>
+    <module name="KEYS" kind="altera_avalon_pio" version="8.0" enabled="1">
+        <parameter name="simDrivenValue" value="0" />
+        <parameter name="simDoTestBenchWiring" value="false" />
+        <parameter name="edgeType" value="RISING" />
+        <parameter name="resetValue" value="0" />
+        <parameter name="direction" value="Input" />
+        <parameter name="width" value="3" />
+        <parameter name="generateIRQ" value="false" />
+        <parameter name="captureEdge" value="false" />
+        <parameter name="bitClearingEdgeCapReg" value="false" />
+        <parameter name="irqType" value="LEVEL" />
+    </module>
+    <module name="SWITCHS" kind="altera_avalon_pio" version="8.0" enabled="1">
+        <parameter name="simDrivenValue" value="0" />
+        <parameter name="simDoTestBenchWiring" value="false" />
+        <parameter name="edgeType" value="RISING" />
+        <parameter name="resetValue" value="0" />
+        <parameter name="direction" value="Input" />
+        <parameter name="width" value="18" />
+        <parameter name="generateIRQ" value="false" />
+        <parameter name="captureEdge" value="false" />
+        <parameter name="bitClearingEdgeCapReg" value="false" />
+        <parameter name="irqType" value="LEVEL" />
+    </module>
+    <module name="sys_clk_timer" kind="altera_avalon_timer" version="8.0" enabled="1">
+        <parameter name="alwaysRun" value="false" />
+        <parameter name="counterSize" value="32" />
+        <parameter name="fixedPeriod" value="false" />
+        <parameter name="period" value="1" />
+        <parameter name="periodUnits" value="MSEC" />
+        <parameter name="resetOutput" value="false" />
+        <parameter name="snapshot" value="true" />
+        <parameter name="timeoutPulseOutput" value="false" />
+        <parameter name="timerPreset" value="CUSTOM" />
+    </module>
+    <module name="high_res_timer" kind="altera_avalon_timer" version="8.0" enabled="1">
+        <parameter name="alwaysRun" value="false" />
+        <parameter name="counterSize" value="32" />
+        <parameter name="periodUnits" value="USEC" />
+        <parameter name="timeoutPulseOutput" value="false" />
+        <parameter name="resetOutput" value="false" />
+        <parameter name="snapshot" value="true" />
+        <parameter name="period" value="1" />
+        <parameter name="fixedPeriod" value="false" />
+        <parameter name="timerPreset" value="CUSTOM" />
+    </module>
+    <module name="uart" kind="altera_avalon_uart" version="8.0" enabled="1">
+        <parameter name="baud" value="115200" />
+        <parameter name="dataBits" value="8" />
+        <parameter name="fixedBaud" value="true" />
+        <parameter name="parity" value="NONE" />
+        <parameter name="simCharStream" value="" />
+        <parameter name="simInteractiveInputEnable" value="false" />
+        <parameter name="simInteractiveOutputEnable" value="false" />
+        <parameter name="simTrueBaud" value="false" />
+        <parameter name="stopBits" value="1" />
+        <parameter name="useCtsRts" value="false" />
+        <parameter name="useEopRegister" value="false" />
+    </module>
+    <module name="HEX0" kind="altera_avalon_pio" version="8.0" enabled="1">
+        <parameter name="simDrivenValue" value="0" />
+        <parameter name="simDoTestBenchWiring" value="false" />
+        <parameter name="edgeType" value="RISING" />
+        <parameter name="resetValue" value="0" />
+        <parameter name="direction" value="Output" />
+        <parameter name="width" value="7" />
+        <parameter name="generateIRQ" value="false" />
+        <parameter name="captureEdge" value="false" />
+        <parameter name="bitClearingEdgeCapReg" value="false" />
+        <parameter name="irqType" value="LEVEL" />
+    </module>
+    <module name="HEX1" kind="altera_avalon_pio" version="8.0" enabled="1">
+        <parameter name="simDrivenValue" value="0" />
+        <parameter name="simDoTestBenchWiring" value="false" />
+        <parameter name="edgeType" value="RISING" />
+        <parameter name="resetValue" value="0" />
+        <parameter name="direction" value="Output" />
+        <parameter name="width" value="7" />
+        <parameter name="generateIRQ" value="false" />
+        <parameter name="captureEdge" value="false" />
+        <parameter name="bitClearingEdgeCapReg" value="false" />
+        <parameter name="irqType" value="LEVEL" />
+    </module>
+    <module name="HEX2" kind="altera_avalon_pio" version="8.0" enabled="1">
+        <parameter name="simDrivenValue" value="0" />
+        <parameter name="simDoTestBenchWiring" value="false" />
+        <parameter name="edgeType" value="RISING" />
+        <parameter name="resetValue" value="0" />
+        <parameter name="direction" value="Output" />
+        <parameter name="width" value="7" />
+        <parameter name="generateIRQ" value="false" />
+        <parameter name="captureEdge" value="false" />
+        <parameter name="bitClearingEdgeCapReg" value="false" />
+        <parameter name="irqType" value="LEVEL" />
+    </module>
+    <module name="HEX3" kind="altera_avalon_pio" version="8.0" enabled="1">
+        <parameter name="simDrivenValue" value="0" />
+        <parameter name="simDoTestBenchWiring" value="false" />
+        <parameter name="edgeType" value="RISING" />
+        <parameter name="resetValue" value="0" />
+        <parameter name="direction" value="Output" />
+        <parameter name="width" value="7" />
+        <parameter name="generateIRQ" value="false" />
+        <parameter name="captureEdge" value="false" />
+        <parameter name="bitClearingEdgeCapReg" value="false" />
+        <parameter name="irqType" value="LEVEL" />
+    </module>
+    <module name="HEX4_to_HEX7" kind="altera_avalon_pio" version="8.0" enabled="1">
+        <parameter name="simDrivenValue" value="0" />
+        <parameter name="simDoTestBenchWiring" value="false" />
+        <parameter name="edgeType" value="RISING" />
+        <parameter name="resetValue" value="0" />
+        <parameter name="direction" value="Output" />
+        <parameter name="width" value="28" />
+        <parameter name="generateIRQ" value="false" />
+        <parameter name="captureEdge" value="false" />
+        <parameter name="bitClearingEdgeCapReg" value="false" />
+        <parameter name="irqType" value="LEVEL" />
+    </module>
+    <module name="lcd" kind="altera_avalon_lcd_16207" version="8.0" enabled="1" />
+    <module name="pwm" kind="avalon_pwm" version="1.0" enabled="0" />
+    <module name="pwm_red1" kind="avalon_pwm_gen" version="1.0" enabled="1">
+        <parameter name="n" value="9" />
+    </module>
+    <module name="pwm_red2" kind="avalon_pwm_gen" version="1.0" enabled="1">
+        <parameter name="n" value="9" />
+    </module>
+    <module name="pwm_green" kind="avalon_pwm_gen" version="1.0" enabled="1">
+        <parameter name="n" value="8" />
+    </module>
+    <connection kind="clock" version="8.0" start="clk.clk" end="cpu.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.instruction_master" end="cpu.jtag_debug_module">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00040800" />
+    </connection>
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="cpu.jtag_debug_module">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00040800" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="CPU_MEM.clk1" />
+    <connection kind="avalon" version="6.1" start="cpu.instruction_master" end="CPU_MEM.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00020000" />
+    </connection>
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="CPU_MEM.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00020000" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="jtag_uart.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="jtag_uart.avalon_jtag_slave">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x000410e0" />
+    </connection>
+    <connection kind="interrupt" version="8.0" start="cpu.d_irq" end="jtag_uart.irq">
+        <parameter name="irqNumber" value="0" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="LED_R.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="LED_R.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00041060" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="LED_G.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="LED_G.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00041070" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="KEYS.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="KEYS.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00041060" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="SWITCHS.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="SWITCHS.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00041070" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="sys_clk_timer.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="sys_clk_timer.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00041000" />
+    </connection>
+    <connection kind="interrupt" version="8.0" start="cpu.d_irq" end="sys_clk_timer.irq">
+        <parameter name="irqNumber" value="1" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="high_res_timer.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="high_res_timer.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00041020" />
+    </connection>
+    <connection kind="interrupt" version="8.0" start="cpu.d_irq" end="high_res_timer.irq">
+        <parameter name="irqNumber" value="2" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="uart.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="uart.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00041040" />
+    </connection>
+    <connection kind="interrupt" version="8.0" start="cpu.d_irq" end="uart.irq">
+        <parameter name="irqNumber" value="3" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="HEX0.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="HEX0.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00041080" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="HEX1.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="HEX1.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x00041090" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="HEX2.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="HEX2.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x000410a0" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="HEX3.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="HEX3.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x000410b0" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="HEX4_to_HEX7.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="HEX4_to_HEX7.s1">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x000410c0" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="lcd.clk" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="lcd.control_slave">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x000410d0" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="pwm.clock_reset" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="pwm.avalon_slave_0">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x000410e8" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="pwm_red1.clock_reset" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="pwm_red1.avalon_slave_0">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x000410e8" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="pwm_red2.clock_reset" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="pwm_red2.avalon_slave_0">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x000410f0" />
+    </connection>
+    <connection kind="clock" version="8.0" start="clk.clk" end="pwm_green.clock_reset" />
+    <connection kind="avalon" version="6.1" start="cpu.data_master" end="pwm_green.avalon_slave_0">
+        <parameter name="arbitrationPriority" value="1" />
+        <parameter name="baseAddress" value="0x000410f8" />
+    </connection>
+</system>

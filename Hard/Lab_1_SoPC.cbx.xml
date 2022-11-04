@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Lab_1_SoPC">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab_1_SoPC|NIOS_System_1:inst|CPU_MEM:the_CPU_MEM|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_ccb1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab_1_SoPC|NIOS_System_1:inst|cpu:the_cpu|cpu_ic_data_module:cpu_ic_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_qed1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab_1_SoPC|NIOS_System_1:inst|cpu:the_cpu|cpu_ic_tag_module:cpu_ic_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_41g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab_1_SoPC|NIOS_System_1:inst|cpu:the_cpu|cpu_mult_cell:the_cpu_mult_cell|altmult_add:the_altmult_add_part_2" CBX_FILE_NAME="mult_add_6cr2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab_1_SoPC|NIOS_System_1:inst|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_nios2_oci_im:the_cpu_nios2_oci_im|cpu_traceram_lpm_dram_bdp_component_module:cpu_traceram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_e502.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab_1_SoPC|NIOS_System_1:inst|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_nios2_ocimem:the_cpu_nios2_ocimem|cpu_ociram_lpm_dram_bdp_component_module:cpu_ociram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_t072.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab_1_SoPC|NIOS_System_1:inst|cpu:the_cpu|cpu_register_bank_a_module:cpu_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_3nf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab_1_SoPC|NIOS_System_1:inst|cpu:the_cpu|cpu_register_bank_b_module:cpu_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_4nf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab_1_SoPC|NIOS_System_1:inst|jtag_uart:the_jtag_uart|jtag_uart_scfifo_w:the_jtag_uart_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab_1_SoPC|sld_hub:sld_hub_inst|lpm_decode:instruction_decoder" CBX_FILE_NAME="decode_aoi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab_1_SoPC|NIOS_System_1:inst|cpu:the_cpu|cpu_mult_cell:the_cpu_mult_cell|altmult_add:the_altmult_add_part_1" CBX_FILE_NAME="mult_add_4cr2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab_1_SoPC|NIOS_System_1:inst|jtag_uart:the_jtag_uart|jtag_uart_scfifo_r:the_jtag_uart_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

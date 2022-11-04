@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences>
+    <systemtable>
+        <columns>
+            <connections preferredWidth="47" />
+            <irq preferredWidth="34" />
+        </columns>
+    </systemtable>
+    <clocktable>
+        <columns>
+            <clockname preferredWidth="371" />
+            <clocksource preferredWidth="370" />
+            <frequency preferredWidth="354" />
+        </columns>
+    </clocktable>
+    <window width="1600" height="870" x="0" y="0" />
+    <library expandedCategories="Peripherals/Debug and Performance,Peripherals/Display,Peripherals,Peripherals/Microcontroller Peripherals" />
+</preferences>
