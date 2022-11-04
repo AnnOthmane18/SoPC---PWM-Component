@@ -40,6 +40,7 @@ Inisde the SoPC Builder, Altera does not provide, an IP for PWM component(Contro
 <p align="center">
 <img src="Files/PWM.png"  alt="Generated Chip">
 </p>
+
 * Address Signal: To select which Register to use(Duty/Div), and since we got just 2 registers, this signal is coded on 1 bit(0/1). 
 * CS Signal: Since all the compoenent are linked to the processor via this bus, we need to specify which chip we're dealing(write/read) with.
 * WriteDATA Signal: For sending data over the bus.
