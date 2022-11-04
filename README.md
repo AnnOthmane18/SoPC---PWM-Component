@@ -15,7 +15,7 @@ In this Mini-Project, I've tried to develop a mini **System On Chip**, developpi
 ### Developping the Chip
 To build the chip, I used the **SoPC Builder** tool of Quartus, It's an integrated tool, which allow us to add all the given component for free by Altera, in an IP Format(HDL Code Encrypted), also one of his big advantages, is that he can generate the HDL,ASM,C code for the created chip.
 <p align="center">
-  <img src="Files/Sopc_Builder.png" alt="Sopc Builder">
+  <img src="Files/Sopc_builder.png" alt="Sopc Builder">
 </p>
 We should add in the first place the main processor, which NIOS II, the CPU MEMORY, and the JTAG_UART component, as an essenital components for the chip, and then adding other component(Controllers), like Swicthes, Buttons, LCD, 7 Segments...etc. at the end we got the generated Chip below :
 
