@@ -15,17 +15,15 @@ In this Mini-Project, I've tried to develop a mini **System On Chip**, developpi
 ### Developping the Chip
 To build the chip, I used the **SoPC Builder** tool of Quartus, It's an integrated tool, which allow us to add all the given component for free by Altera, in an IP Format(HDL Code Encrypted), also one of his big advantages, is that he can generate the HDL,ASM,C code for the created chip.
 <p align="center">
-  <img src="Files/SOPC-Builder.png" alt="Size Limit CLI" width="738">
+  <img src="Files/Sopc_Builder.png" alt="Size Limit CLI" width="738">
 </p>
-
-With **[GitHub action]** Size Limit will post bundle size changes as a comment
-in pull request discussion.
+We should add in the first place the main processor, which NIOS II, the CPU MEMORY, and the JTAG_UART component, as an essenital components for the chip, and then adding other component(Controllers), like Swicthes, Buttons, LCD, 7 Segments...etc. at the end we got the generated Chip below :
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/andresz1/size-limit-action/master/assets/pr.png"
-  alt="Size Limit comment in pull request about bundle size changes"
-  width="686" height="289">
+<img src="Files/Generated_Chip.png"
+  alt="Size Limit comment in pull request about bundle size changes">
 </p>
+
 
 With `--why`, Size Limit can tell you *why* your library is of this size
 and show the real cost of all your internal dependencies.
