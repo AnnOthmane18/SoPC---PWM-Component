@@ -3,9 +3,7 @@
 <img src="Files/SOC.png" align="center"
      alt="Size Limit logo by Anton Lovchikov" width="500" height="550">
 
-Size Limit is a performance budget tool for JavaScript. It checks every commit
-on CI, calculates the real cost of your JS for end-users and throws an error
-if the cost exceeds the limit.
+In this Mini-Project, I've tried to develop a mini System On Chip, developping both side(Hard + Soft), based on the open source, given processor in an IP(intellectual Property) Format, which is the NIOS II processor, by the company Intel Altera, using the Quartus Environment.
 
 * **ES modules** and **tree-shaking** support.
 * Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
