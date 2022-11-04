@@ -71,7 +71,7 @@ As a first step, we should develop the driver, to make it easy and simple manipu
 #endif /* __ALTERA_AVALON_PWM_REGS_H__ */
 
 ```
-* Simple application of the driver wlong with the PWM component
+* Simple application of the driver along with the PWM component
 
 ```yaml
 #include "system.h" // where all the macros are defined(addresses of different components inside the chip)
