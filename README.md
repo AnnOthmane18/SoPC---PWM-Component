@@ -1,13 +1,15 @@
 <!-- # Size Limit [![Cult Of Martians][cult-img]][cult] -->
 <h1>System On Programmable Chip</h1>
-<img src="Files/SOC.png" align="center"
-     alt="Size Limit logo by Anton Lovchikov" width="500" height="550">
+<p align="center">
+    <img src="Files/SOC.png"  alt="Size Limit logo by Anton Lovchikov" width="500" height="550">
+</p>
 
 In this Mini-Project, I've tried to develop a mini **System On Chip**, developping both side(Hard + Soft), based on the open source, given processor in an **IP**(intellectual Property) Format, which is the **NIOS II** processor, by the company **Intel Altera**, using the **Quartus** Environment.
 
 
 ## HARD(SoPC)
-### Board used : 
+### Board used :
+ 
 * **Board used**: FPGA CYCLONE II DE2-70
 <img src="Files/fpga.jpg" align="center"
      alt="Size Limit logo by Anton Lovchikov" width="500" height="550">
@@ -24,25 +26,28 @@ We should add in the first place the main processor, which NIOS II, the CPU MEMO
 </p>
 
 
-With `--why`, Size Limit can tell you *why* your library is of this size
-and show the real cost of all your internal dependencies.
-We are using [Statoscope] for this analysis.
+ `PWM Output size 26`=> it's because on the FPGA Board, we have just 26 LEDs in total.
 
+#### Altera Avalon Bus
+The NIOS II processor, uses only one component(as an intermediate) to communicate with other controllers, existed inside the chip which is the AVALON Bus, It's an integrated Bus, from which all the data pass through it.
 <p align="center">
-  <img src="./img/why.png" alt="Statoscope example" width="650">
+<img src="Files/avalon_bus.png"  alt="Generated Chip">
 </p>
 
-<p align="center">
-  <a href="https://evilmartians.com/?utm_source=size-limit">
-    <img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg"
-         alt="Sponsored by Evil Martians" width="236" height="54">
-  </a>
-</p>
+### PWM Component
+Inisde the SoPC Builder, Altera does not provide, an IP for PWM component(Controller + Interface), so that we can add it to our Chip, we have to develop our own VHDL code, and create a new component, in the file menu. the VHDL code contains 2 parts one for the **PWM logic**, and one for the **Interfacing**, since NIOS II, uses AVALON Bus as internal bus, from which the processor can `read/write` from/to other internal components.
 
-[GitHub action]: https://github.com/andresz1/size-limit-action
-[Statoscope]:    https://github.com/statoscope/statoscope
-[cult-img]:      http://cultofmartians.com/assets/badges/badge.svg
-[cult]:          http://cultofmartians.com/tasks/size-limit-config.html
+<p align="center">
+<img src="Files/PWM.png"  alt="Generated Chip">
+</p>
+* Address Signal: To select which Register to use(Duty/Div), and since we got just 2 registers, this signal is coded on 1 bit(0/1). 
+* CS Signal: Since all the compoenent are linked to the processor via this bus, we need to specify which chip we're dealing(write/read) with.
+* WriteDATA Signal: For sending data over the bus.
+* Write_n Signal: For Enabling/Disabling writing operation.
+* ReadDATA Signal: For reading data from the bus.
+* Read_n  Signal: For Enabling/Disabling Reading operation.
+* OutputPWM  Signal: Either 1 or 0 for all the other 25 bits, since the output signal is coded on 26 bits(26 LEDs).
+
 
 ## Who Uses Size Limit
 
