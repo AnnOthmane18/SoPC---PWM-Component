@@ -11,8 +11,9 @@ In this Mini-Project, I've tried to develop a mini **System On Chip**, developpi
 ### Board used :
  
 * **Board used**: FPGA CYCLONE II DE2-70
-<img src="Files/fpga.jpg" align="center"
-     alt="Size Limit logo by Anton Lovchikov" width="500" height="550">
+<p align="center">
+    <img src="Files/fpga.jpg" alt="Size Limit logo by Anton Lovchikov" width="500" height="550">
+</p>
 
 ### Developping the Chip
 To build the chip, I used the **SoPC Builder** tool of Quartus, It's an integrated tool, which allow us to add all the given component for free by Altera, in an IP Format(HDL Code Encrypted), also one of his big advantages, is that he can generate the HDL,ASM,C code for the created chip.
@@ -41,52 +42,14 @@ Inisde the SoPC Builder, Altera does not provide, an IP for PWM component(Contro
 <img src="Files/PWM.png"  alt="Generated Chip">
 </p>
 
-* Address Signal: To select which Register to use(Duty/Div), and since we got just 2 registers, this signal is coded on 1 bit(0/1). 
-* CS Signal: Since all the compoenent are linked to the processor via this bus, we need to specify which chip we're dealing(write/read) with.
-* WriteDATA Signal: For sending data over the bus.
-* Write_n Signal: For Enabling/Disabling writing operation.
-* ReadDATA Signal: For reading data from the bus.
-* Read_n  Signal: For Enabling/Disabling Reading operation.
-* OutputPWM  Signal: Either 1 or 0 for all the other 25 bits, since the output signal is coded on 26 bits(26 LEDs).
+* **Address Signal**: To select which Register to use(Duty/Div), and since we got just 2 registers, this signal is coded on 1 bit(0/1). 
+* **CS Signal**: Since all the compoenent are linked to the processor via this bus, we need to specify which chip we're dealing(write/read) with.
+* **WriteDATA Signal**: For sending data over the bus.
+* **Write_n Signal**: For Enabling/Disabling writing operation.
+* **ReadDATA Signal**: For reading data from the bus.
+* **Read_n  Signal**: For Enabling/Disabling Reading operation.
+* **OutputPWM Signal**: Either 1 or 0 for all the other 25 bits, since the output signal is coded on 26 bits(26 LEDs).
 
-
-## Who Uses Size Limit
-
-* [MobX](https://github.com/mobxjs/mobx)
-* [Material-UI](https://github.com/callemall/material-ui)
-* [Autoprefixer](https://github.com/postcss/autoprefixer)
-* [PostCSS](https://github.com/postcss/postcss) reduced
-  [25% of the size](https://github.com/postcss/postcss/commit/150edaa42f6d7ede73d8c72be9909f0a0f87a70f).
-* [Browserslist](https://github.com/browserslist/browserslist) reduced
-  [25% of the size](https://github.com/browserslist/browserslist/commit/640b62fa83a20897cae75298a9f2715642531623).
-* [EmojiMart](https://github.com/missive/emoji-mart) reduced
-  [20% of the size](https://github.com/missive/emoji-mart/pull/111)
-* [nanoid](https://github.com/ai/nanoid) reduced
-  [33% of the size](https://github.com/ai/nanoid/commit/036612e7d6cc5760313a8850a2751a5e95184eab).
-* [React Focus Lock](https://github.com/theKashey/react-focus-lock) reduced
-  [32% of the size](https://github.com/theKashey/react-focus-lock/pull/48).
-* [Logux](https://github.com/logux) reduced
-  [90% of the size](https://github.com/logux/logux-client/commit/62b258e20e1818b23ae39b9c4cd49e2495781e91).
-
-
-## How It Works
-
-1. Size Limit contains a CLI tool, 3 plugins (`file`, `webpack`, `time`)
-   and 3 plugin presets for popular use cases (`app`, `big-lib`, `small-lib`).
-   A CLI tool finds plugins in `package.json` and loads the config.
-2. If you use the `webpack` plugin, Size Limit will bundle your JS files into
-   a single file. It is important to track dependencies and webpack polyfills.
-   It is also useful for small libraries with many small files and without
-   a bundler.
-3. The `webpack` plugin creates an empty webpack project, adds your library
-   and looks for the bundle size difference.
-4. The `time` plugin compares the current machine performance with that of
-   a low-priced Android devices to calculate the CPU throttling rate.
-5. Then the `time` plugin runs headless Chrome (or desktop Chrome if it’s
-   available) to track the time a browser takes to compile and execute your JS.
-   Note that these measurements depend on available resources and might
-   be unstable. [See here](https://github.com/mbalabash/estimo/issues/5)
-   for more details.
 
 
 ## Usage
