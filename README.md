@@ -49,7 +49,7 @@ Inisde the SoPC Builder, Altera does not provide, an IP for PWM component(Contro
 * **ReadDATA Signal**: For reading data from the bus.
 * **Read_n  Signal**: For Enabling/Disabling Reading operation.
 * **OutputPWM Signal**: Either 1 or 0 for all the other 25 bits, since the output signal is coded on 26 bits(26 LEDs).
-## Reports
+
 
 ## Soft
 
@@ -71,4 +71,25 @@ As a first step, we should develop the driver, to make it easy and simple manipu
 #endif /* __ALTERA_AVALON_PWM_REGS_H__ */
 
 ```
+* Simple application of the driver wlong with the PWM component
 
+```yaml
+#include "system.h" // where all the macros are defined(addresses of different components inside the chip)
+#include "altera_avalon_pwm.h" //developed driver for pwm interfacing
+#include "altera_avalon_pio_regs.h" //contains all the needed APIs for Reading and Writing
+#include<stdio.h>
+
+int main(){
+    IOWR_ALTERA_AVALON_PWM_DIVIDER(PWM_BASE,0xFF); //PWM_BASE Contains the pwm component address
+    IORD_ALTERA_AVALON_PWM_DUTY(PWM_BASE,0xFF);
+
+    printf("Starting!!\n\n\n");
+    while(1){
+        for(int i=0x00;i<0xFF;i++){
+            IORD_ALTERA_AVALON_PWM_DUTY(PWM_BASE,i); //changing the DUty cicyle => that will led to change the 26 LEDs intensity
+        }
+        IORD_ALTERA_AVALON_PWM_DUTY(PWM_BASE,0x00;
+    }
+}
+
+```
