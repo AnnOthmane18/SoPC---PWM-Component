@@ -5,19 +5,17 @@
 
 In this Mini-Project, I've tried to develop a mini **System On Chip**, developping both side(Hard + Soft), based on the open source, given processor in an **IP**(intellectual Property) Format, which is the **NIOS II** processor, by the company **Intel Altera**, using the **Quartus** Environment.
 
-* **ES modules** and **tree-shaking** support.
-* Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
-  or another CI system to know if a pull request adds a massive dependency.
-* **Modular** to fit different use cases: big JS applications
-  that use their own bundler or small npm libraries with many files.
-* Can calculate **the time** it would take a browser
-  to download and **execute** your JS. Time is a much more accurate
-  and understandable metric compared to the size in bytes.
-* Calculations include **all dependencies and polyfills**
-  used in your JS.
 
+## HARD(SoPC)
+### Board used : 
+* **Board used**: FPGA CYCLONE II DE2-70
+<img src="Files/fpga.jpg" align="center"
+     alt="Size Limit logo by Anton Lovchikov" width="500" height="550">
+
+### Developping the Chip
+To build the chip, I used the **SoPC Builder** tool of Quartus, It's an integrated tool, which allow us to add all the given component for free by Altera, in an IP Format(HDL Code Encrypted), also one of his big advantages, is that he can generate the HDL,ASM,C code for the created chip.
 <p align="center">
-  <img src="./img/example.png" alt="Size Limit CLI" width="738">
+  <img src="Files/SOPC-Builder.png" alt="Size Limit CLI" width="738">
 </p>
 
 With **[GitHub action]** Size Limit will post bundle size changes as a comment
